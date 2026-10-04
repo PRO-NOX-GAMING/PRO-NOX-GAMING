@@ -1,0 +1,1177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+</head>
+<body>
+
+    <h1>Welcome to My Website!</h1>
+    <p>This is my first website.</p>
+
+    <h2>My Gaming Channel</h2>
+    <p>Welcome to MAX PLAYZ 🎮</p>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MAX PLAYZ - Gaming</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #111;
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            padding: 25px;
+            background: #1a1a1a;
+        }
+
+        h1 {
+            font-size: 50px;
+            margin: 10px;
+        }
+
+        .hero {
+            padding: 80px 20px;
+        }
+
+        .hero h2 {
+            font-size: 40px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            color: #ccc;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            margin-top: 20px;
+            background: red;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        .about {
+            padding: 50px 20px;
+            background: #1a1a1a;
+        }
+
+        footer {
+            padding: 20px;
+            color: #aaa;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>MAX PLAYZ 🎮</h1>
+        <p>Gaming • Fun • Entertainment</p>
+    </header>
+
+    <section class="hero">
+        <h2>Welcome to MAX PLAYZ!</h2>
+        <p>Watch gaming videos, Shorts and amazing gameplay.</p>
+
+        <a class="button" href="https://www.youtube.com/" target="_blank">
+            Visit My YouTube
+        </a>
+    </section>
+
+    <section class="about">
+        <h2>About MAX PLAYZ</h2>
+        <p>
+            Welcome to MAX PLAYZ! Here you'll find exciting gaming
+            content, funny moments and awesome gameplay.
+        </p>
+    </section>
+
+    <footer>
+        © 2026 MAX PLAYZ. All rights reserved.
+    </footer>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MAX PLAYZ 🎮</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #080808, #151515, #080808);
+            color: white;
+        }
+
+        header {
+            padding: 20px;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.8);
+            border-bottom: 2px solid red;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 45px;
+            color: red;
+            text-shadow: 0 0 15px red;
+        }
+
+        nav {
+            margin-top: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: red;
+        }
+
+        .hero {
+            min-height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 30px;
+        }
+
+        .hero h2 {
+            font-size: 60px;
+            margin: 10px;
+            text-shadow: 0 0 20px red;
+        }
+
+        .hero p {
+            font-size: 20px;
+            color: #ccc;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 15px 35px;
+            background: red;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .button:hover {
+            background: white;
+            color: red;
+            transform: scale(1.1);
+        }
+
+        .games {
+            padding: 60px 30px;
+            text-align: center;
+            background: #111;
+        }
+
+        .games h2 {
+            font-size: 35px;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .card {
+            width: 250px;
+            padding: 30px;
+            background: #1c1c1c;
+            border-radius: 15px;
+            border: 1px solid #333;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            border-color: red;
+            box-shadow: 0 0 20px red;
+        }
+
+        .card h3 {
+            font-size: 25px;
+        }
+
+        .card p {
+            color: #aaa;
+        }
+
+        .about {
+            padding: 60px 30px;
+            text-align: center;
+        }
+
+        .about p {
+            max-width: 700px;
+            margin: auto;
+            color: #ccc;
+            line-height: 1.7;
+        }
+
+        footer {
+            padding: 25px;
+            text-align: center;
+            background: #050505;
+            color: #777;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>MAX PLAYZ 🎮</h1>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#games">Games</a>
+        <a href="#about">About</a>
+    </nav>
+</header>
+
+
+<section class="hero" id="home">
+
+    <h2>MAX PLAYZ</h2>
+
+    <p>Welcome to the ultimate gaming zone!</p>
+
+    <a class="button"
+       href="https://www.youtube.com/"
+       target="_blank">
+       🔴 Visit YouTube
+    </a>
+
+</section>
+
+
+<section class="games" id="games">
+
+    <h2>🎮 My Games</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>🎯 Roblox</h3>
+            <p>Fun Roblox gameplay and exciting moments.</p>
+        </div>
+
+        <div class="card">
+            <h3>⛏️ Minecraft</h3>
+            <p>Adventures, builds and survival gameplay.</p>
+        </div>
+
+        <div class="card">
+            <h3>🔥 Free Fire</h3>
+            <p>Epic battles and gaming Shorts.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="about" id="about">
+
+    <h2>👑 About MAX PLAYZ</h2>
+
+    <p>
+        Welcome to MAX PLAYZ! 🎮
+        This website is all about gaming, entertainment,
+        exciting gameplay and awesome gaming content.
+    </p>
+
+</section>
+
+
+<footer>
+    © 2026 MAX PLAYZ | Gaming Website
+</footer>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PRO NOX GAMING 🎮</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #050505;
+            color: white;
+        }
+
+        /* NAVBAR */
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 100;
+            padding: 18px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(0,0,0,0.9);
+            border-bottom: 2px solid #00e5ff;
+        }
+
+        .logo {
+            font-size: 27px;
+            font-weight: bold;
+            color: #00e5ff;
+            text-shadow: 0 0 15px #00e5ff;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #00e5ff;
+        }
+
+        /* HERO */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+            background:
+                linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.9)),
+                radial-gradient(circle, #063b48, #050505 65%);
+        }
+
+        .hero h1 {
+            font-size: 70px;
+            margin: 0;
+            color: #00e5ff;
+            text-shadow:
+                0 0 10px #00e5ff,
+                0 0 30px #00e5ff;
+            animation: glow 2s infinite alternate;
+        }
+
+        @keyframes glow {
+            from {
+                text-shadow: 0 0 10px #00e5ff;
+            }
+
+            to {
+                text-shadow: 0 0 35px #00e5ff;
+            }
+        }
+
+        .hero p {
+            font-size: 22px;
+            color: #ddd;
+        }
+
+        /* BUTTONS */
+        .button {
+            display: inline-block;
+            margin: 12px;
+            padding: 15px 30px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: .3s;
+        }
+
+        .youtube {
+            background: #ff0000;
+            color: white;
+        }
+
+        .youtube:hover {
+            background: white;
+            color: red;
+            transform: scale(1.1);
+        }
+
+        .explore {
+            border: 2px solid #00e5ff;
+            color: white;
+        }
+
+        .explore:hover {
+            background: #00e5ff;
+            color: black;
+            transform: scale(1.1);
+        }
+
+        /* SECTIONS */
+        section {
+            padding: 90px 30px;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 40px;
+            color: #00e5ff;
+            text-shadow: 0 0 12px #00e5ff;
+        }
+
+        /* GAME CARDS */
+        .cards {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+            margin-top: 40px;
+        }
+
+        .card {
+            width: 280px;
+            padding: 35px 20px;
+            background: #111;
+            border: 1px solid #333;
+            border-radius: 15px;
+            transition: .4s;
+        }
+
+        .card:hover {
+            transform: translateY(-12px);
+            border-color: #00e5ff;
+            box-shadow: 0 0 25px #00e5ff;
+        }
+
+        .emoji {
+            font-size: 55px;
+        }
+
+        .card h3 {
+            font-size: 25px;
+        }
+
+        .card p {
+            color: #aaa;
+            line-height: 1.5;
+        }
+
+        /* VIDEOS */
+        .videos {
+            background: #0c0c0c;
+        }
+
+        .video-box {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 50px;
+            background: #151515;
+            border-radius: 15px;
+            border: 1px solid #333;
+        }
+
+        .video-box p {
+            color: #aaa;
+        }
+
+        /* ABOUT */
+        .about p {
+            max-width: 700px;
+            margin: auto;
+            color: #bbb;
+            line-height: 1.8;
+            font-size: 18px;
+        }
+
+        /* FOOTER */
+        footer {
+            padding: 30px;
+            text-align: center;
+            background: #020202;
+            color: #777;
+        }
+
+        /* MOBILE */
+        @media (max-width: 700px) {
+
+            header {
+                padding: 15px;
+                flex-direction: column;
+            }
+
+            nav {
+                margin-top: 10px;
+            }
+
+            nav a {
+                margin: 0 7px;
+            }
+
+            .hero h1 {
+                font-size: 45px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">PRO NOX GAMING 🎮</div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#games">Games</a>
+        <a href="#videos">Videos</a>
+        <a href="#about">About</a>
+    </nav>
+
+</header>
+
+
+<!-- HOME -->
+
+<section class="hero" id="home">
+
+    <h1>PRO NOX GAMING</h1>
+
+    <p>🎮 Gaming • 🔥 Entertainment • 🏆 Epic Gameplay</p>
+
+    <div>
+
+        <a class="button youtube"
+           href="https://www.youtube.com/"
+           target="_blank">
+           🔴 YouTube
+        </a>
+
+        <a class="button explore" href="#games">
+           🎮 Explore Games
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- GAMES -->
+
+<section id="games">
+
+    <h2>🎮 MY GAMES</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <div class="emoji">⛏️</div>
+            <h3>Minecraft</h3>
+            <p>Survival, builds, adventures and amazing moments.</p>
+        </div>
+
+        <div class="card">
+            <div class="emoji">🎯</div>
+            <h3>Roblox</h3>
+            <p>Fun games, challenges and exciting gameplay.</p>
+        </div>
+
+        <div class="card">
+            <div class="emoji">🔥</div>
+            <h3>Free Fire</h3>
+            <p>Fast battles, action and awesome gaming moments.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- VIDEOS -->
+
+<section class="videos" id="videos">
+
+    <h2>📹 LATEST VIDEOS</h2>
+
+    <div class="video-box">
+
+        <h3>🔥 PRO NOX GAMING</h3>
+
+        <p>
+            New gaming videos and Shorts coming soon!
+        </p>
+
+        <a class="button youtube"
+           href="https://www.youtube.com/"
+           target="_blank">
+           Watch on YouTube
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section class="about" id="about">
+
+    <h2>👑 ABOUT PRO NOX GAMING</h2>
+
+    <p>
+        Welcome to PRO NOX GAMING! 🎮
+        Here you will find exciting gaming videos,
+        Shorts, challenges, funny moments and epic gameplay.
+        Subscribe and join the gaming journey!
+    </p>
+
+</section>
+
+
+<footer>
+
+    © 2026 PRO NOX GAMING 🎮 | All Rights Reserved
+
+</footer>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PRO NOX GAMING 🎮</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #050505;
+            color: white;
+        }
+
+        /* NAVBAR */
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 100;
+            padding: 18px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(0,0,0,0.92);
+            border-bottom: 2px solid #00e5ff;
+        }
+
+        .logo {
+            font-size: 26px;
+            font-weight: bold;
+            color: #00e5ff;
+            text-shadow: 0 0 15px #00e5ff;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 22px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #00e5ff;
+        }
+
+        /* HERO */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+
+            background:
+                radial-gradient(circle at 20% 30%, #063b48, transparent 30%),
+                radial-gradient(circle at 80% 70%, #17204d, transparent 30%),
+                #050505;
+        }
+
+        /* ANIMATED LIGHTS */
+        .light {
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            background: #00e5ff;
+            border-radius: 50%;
+            box-shadow: 0 0 20px #00e5ff;
+            animation: move 8s linear infinite;
+        }
+
+        .light:nth-child(1) {
+            left: 10%;
+            top: 80%;
+        }
+
+        .light:nth-child(2) {
+            left: 80%;
+            top: 20%;
+            animation-delay: 2s;
+        }
+
+        .light:nth-child(3) {
+            left: 50%;
+            top: 10%;
+            animation-delay: 4s;
+        }
+
+        @keyframes move {
+            0% {
+                transform: translateY(0);
+                opacity: 0;
+            }
+
+            50% {
+                opacity: 1;
+            }
+
+            100% {
+                transform: translateY(-500px);
+                opacity: 0;
+            }
+        }
+
+        .hero h1 {
+            font-size: 70px;
+            margin: 0;
+            color: #00e5ff;
+            text-shadow:
+                0 0 10px #00e5ff,
+                0 0 30px #00e5ff;
+            animation: glow 2s infinite alternate;
+            z-index: 2;
+        }
+
+        @keyframes glow {
+            from {
+                text-shadow: 0 0 10px #00e5ff;
+            }
+
+            to {
+                text-shadow: 0 0 40px #00e5ff;
+            }
+        }
+
+        .hero p {
+            font-size: 22px;
+            color: #ddd;
+            z-index: 2;
+        }
+
+        /* BUTTONS */
+        .button {
+            display: inline-block;
+            margin: 10px;
+            padding: 15px 30px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: .3s;
+            z-index: 2;
+        }
+
+        .youtube {
+            background: red;
+            color: white;
+        }
+
+        .youtube:hover {
+            background: white;
+            color: red;
+            transform: scale(1.1);
+        }
+
+        .explore {
+            border: 2px solid #00e5ff;
+            color: white;
+        }
+
+        .explore:hover {
+            background: #00e5ff;
+            color: black;
+            transform: scale(1.1);
+        }
+
+        /* STATS */
+        .stats {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+            padding: 50px 20px;
+            background: #0a0a0a;
+        }
+
+        .stat {
+            width: 200px;
+            padding: 25px;
+            text-align: center;
+            background: #151515;
+            border-radius: 12px;
+            border: 1px solid #333;
+        }
+
+        .stat h2 {
+            color: #00e5ff;
+            margin: 0;
+            font-size: 35px;
+        }
+
+        .stat p {
+            color: #aaa;
+        }
+
+        /* SECTIONS */
+        section {
+            padding: 90px 30px;
+            text-align: center;
+        }
+
+        section > h2 {
+            font-size: 40px;
+            color: #00e5ff;
+            text-shadow: 0 0 12px #00e5ff;
+        }
+
+        /* CARDS */
+        .cards {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+            margin-top: 40px;
+        }
+
+        .card {
+            width: 280px;
+            padding: 35px 20px;
+            background: #111;
+            border: 1px solid #333;
+            border-radius: 15px;
+            transition: .4s;
+        }
+
+        .card:hover {
+            transform: translateY(-12px);
+            border-color: #00e5ff;
+            box-shadow: 0 0 25px #00e5ff;
+        }
+
+        .emoji {
+            font-size: 55px;
+        }
+
+        .card h3 {
+            font-size: 25px;
+        }
+
+        .card p {
+            color: #aaa;
+            line-height: 1.5;
+        }
+
+        /* VIDEOS */
+        .videos {
+            background: #0c0c0c;
+        }
+
+        .video-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+            margin-top: 40px;
+        }
+
+        .video {
+            width: 300px;
+            height: 180px;
+            background: #171717;
+            border: 1px solid #333;
+            border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .video span {
+            font-size: 50px;
+        }
+
+        .video h3 {
+            margin: 10px;
+        }
+
+        /* ABOUT */
+        .about p {
+            max-width: 750px;
+            margin: auto;
+            color: #bbb;
+            line-height: 1.8;
+            font-size: 18px;
+        }
+
+        /* FOOTER */
+        footer {
+            padding: 30px;
+            text-align: center;
+            background: #020202;
+            color: #777;
+        }
+
+        @media (max-width: 700px) {
+
+            header {
+                flex-direction: column;
+                padding: 15px;
+            }
+
+            nav {
+                margin-top: 10px;
+            }
+
+            nav a {
+                margin: 0 5px;
+                font-size: 13px;
+            }
+
+            .hero h1 {
+                font-size: 43px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">PRO NOX GAMING 🎮</div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#games">Games</a>
+        <a href="#videos">Videos</a>
+        <a href="#about">About</a>
+    </nav>
+
+</header>
+
+
+<!-- HOME -->
+
+<section class="hero" id="home">
+
+    <div class="light"></div>
+    <div class="light"></div>
+    <div class="light"></div>
+
+    <h1>PRO NOX GAMING</h1>
+
+    <p>🎮 GAMING • 🔥 ENTERTAINMENT • 🏆 EPIC GAMEPLAY</p>
+
+    <div>
+
+        <a class="button youtube"
+           href="https://www.youtube.com/"
+           target="_blank">
+           🔴 SUBSCRIBE
+        </a>
+
+        <a class="button explore" href="#games">
+           🎮 EXPLORE
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- STATS -->
+
+<div class="stats">
+
+    <div class="stat">
+        <h2>🎮</h2>
+        <p>Gaming</p>
+    </div>
+
+    <div class="stat">
+        <h2>🔥</h2>
+        <p>Epic Videos</p>
+    </div>
+
+    <div class="stat">
+        <h2>🏆</h2>
+        <p>Challenges</p>
+    </div>
+
+    <div class="stat">
+        <h2>⚡</h2>
+        <p>Shorts</p>
+    </div>
+
+</div>
+
+
+<!-- GAMES -->
+
+<section id="games">
+
+    <h2>🎮 GAMES</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <div class="emoji">⛏️</div>
+            <h3>Minecraft</h3>
+            <p>Survival, builds and exciting adventures.</p>
+        </div>
+
+        <div class="card">
+            <div class="emoji">🎯</div>
+            <h3>Roblox</h3>
+            <p>Fun games, challenges and crazy moments.</p>
+        </div>
+
+        <div class="card">
+            <div class="emoji">🔥</div>
+            <h3>Free Fire</h3>
+            <p>Fast battles and intense gameplay.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- VIDEOS -->
+
+<section class="videos" id="videos">
+
+    <h2>📹 LATEST VIDEOS</h2>
+
+    <div class="video-container">
+
+        <div class="video">
+            <span>▶️</span>
+            <h3>Gaming Short #1</h3>
+        </div>
+
+        <div class="video">
+            <span>▶️</span>
+            <h3>Gaming Short #2</h3>
+        </div>
+
+        <div class="video">
+            <span>▶️</span>
+            <h3>Gaming Video</h3>
+        </div>
+
+    </div>
+
+    <a class="button youtube"
+       href="https://www.youtube.com/"
+       target="_blank">
+       🔴 VIEW CHANNEL
+    </a>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section class="about" id="about">
+
+    <h2>👑 ABOUT PRO NOX GAMING</h2>
+
+    <p>
+        Welcome to PRO NOX GAMING! 🎮
+        Here you'll find gaming videos, Shorts,
+        challenges, funny moments and epic gameplay.
+        Join the journey and become part of the gaming community!
+    </p>
+
+</section>
+
+
+<footer>
+
+    © 2026 PRO NOX GAMING 🎮 | All Rights Reserved
+
+</footer>
+
+</body>
+</html>
+
+<a class="button youtube"
+   href="http://www.youtube.com/@PRO_NOX_GAMING_14y"
+   target="_blank">
+   🔴 SUBSCRIBE
+</a>
+
+<a class="button youtube"
+   href="http://www.youtube.com/@PRO_NOX_GAMING_14y"
+   target="_blank">
+   🔴 VIEW CHANNEL
+</a>
+
